@@ -1387,27 +1387,21 @@
     },
     "done": true
   },
-  "minecraft:story/obtain_armor": {
-    "criteria": {
-      "iron_chestplate": "2026-03-13 12:44:19 +0100"
-    },
-    "done": true
-  },
-  "minecraft:nether/explore_nether": {
-    "criteria": {
-      "minecraft:nether_wastes": "2026-03-13 13:05:39 +0100"
-    },
-    "done": false
-  },
   "minecraft:recipes/food/beetroot_soup": {
     "criteria": {
       "has_beetroot": "2026-03-13 12:36:42 +0100"
     },
     "done": true
   },
-  "minecraft:story/enter_the_nether": {
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
     "criteria": {
-      "entered_nether": "2026-03-13 13:05:35 +0100"
+      "has_beetroot": "2026-03-13 12:36:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2026-03-13 12:44:19 +0100"
     },
     "done": true
   },
@@ -1423,15 +1417,27 @@
     },
     "done": true
   },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2026-03-13 13:05:35 +0100"
+    },
+    "done": true
+  },
   "minecraft:nether/root": {
     "criteria": {
       "entered_nether": "2026-03-13 13:05:35 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/misc/red_dye_from_beetroot": {
+  "minecraft:nether/explore_nether": {
     "criteria": {
-      "has_beetroot": "2026-03-13 12:36:42 +0100"
+      "minecraft:nether_wastes": "2026-03-13 13:05:39 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2026-03-13 13:08:18 +0100"
     },
     "done": true
   },
@@ -1444,12 +1450,6 @@
   "minecraft:recipes/redstone/tnt": {
     "criteria": {
       "has_gunpowder": "2026-03-13 14:02:21 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/nether_brick": {
-    "criteria": {
-      "has_netherrack": "2026-03-13 13:08:18 +0100"
     },
     "done": true
   },
